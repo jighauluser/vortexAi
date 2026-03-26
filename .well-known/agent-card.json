@@ -1,0 +1,21 @@
+{
+  "name": "VortexAI",
+  "description": "A cybernetic intelligence layer for Base that fuses on-chain data with AI-driven sentiment analysis.",
+  "url": "https://vortexai.vercel.app",
+  "version": "1.0.0",
+  "author": "VortexAI Core",
+  "capabilities": ["mcp", "a2a", "tools", "prompts", "resources", "swarm"],
+  "endpoints": {
+    "mcp": "https://vortexai.vercel.app/mcp",
+    "a2a": "https://vortexai.vercel.app/a2a",
+    "agentCard": "https://vortexai.vercel.app/.well-known/agent-card.json"
+  },
+  "skills": [
+    { "name": "predict_momentum", "description": "Forecasts token price direction using neural models." },
+    { "name": "anomaly_detector", "description": "Identifies suspicious on-chain patterns in real-time." },
+    { "name": "sentiment_scan", "description": "Reads market mood from multiple data sources." },
+    { "name": "alpha_signal", "description": "Produces trade-ready alpha signals." },
+    { "name": "network_pulse", "description": "Monitors AI model health and accuracy." },
+    { "name": "alpha_briefing", "description": "Compiles daily intelligence briefings." }
+  ]
+}
